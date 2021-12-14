@@ -130,7 +130,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      {/* <div className="flex-resto"> */}
+
       <div className="wrapper-resto">
         <div className="content-resto">
           <div className="wrapper-img-resto">
@@ -155,7 +155,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-      {/* </div> */}
 
       <div className="footer-head">
         <div className="wrapper-footer">
@@ -373,8 +372,8 @@ export default function Home() {
               </div>
               <div className="app-store">
                 <div className="wrapper-app-store">
-                  <img src="/1.png" width="160" height="52" />
-                  <img src="/googleplay.png" width="160" height="52" />
+                  <img src="/appstore.png" width="170" height="auto" />
+                  <img src="/gp1.png" width="170" height="auto" />
                 </div>
               </div>
             </div>
