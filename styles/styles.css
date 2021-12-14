@@ -105,25 +105,21 @@
   }
 
   div.content-menu {
-    margin-left: 64px;
-    width: 298.66px;
-    height: 338.81px;
-    margin-bottom: 96px;
+    padding-bottom: 130px;
   }
 
   div.wrapper-menu {
-    padding: 0px 50px;
-
-    height: auto;
-  }
-
-  div.content-menu {
-    margin: 0px;
+    padding: 80px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    height: 72vh;
+    width: 100%;
   }
 
   div.desc-menu span {
     margin: 0px;
-    font-size: 40px;
+    font-size: 26px;
+    width: 180px;
   }
 
   div.image-resto img {
@@ -153,8 +149,9 @@
   }
 
   div.wrapper-img-menu img {
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 79vh;
+    margin-left: 0px;
   }
 
   div.wrapper-resto {
@@ -182,30 +179,23 @@
     display: block;
   }
 
-  /* div.btn-resto {
-    position: relative;
-    width: 500px;
-    margin: 0px;
-    padding: 0px;
-    display: inline-flex;
-    border-radius: 1000px;
-    min-height: 30px;
-    width: auto;
-    align-items: center;
-    border: none;
-    cursor: pointer;
-    background-color: rgb(217, 20, 0);
-    text-align: center;
-  } */
+  div.btn-app {
+    width: 60%;
+  }
 
-  div.btn-resto div {
+  div.btn-app button {
     font-size: 14px;
-    padding: 12px 18px;
+    padding: 8px 10px;
+  }
+
+  div.btn-resto button {
+    font-size: 14px;
+    padding: 8px 14px;
   }
 
   div.wrapper-img-resto img {
-    width: 100px;
-    height: auto;
+    width: auto;
+    height: 100vh;
   }
 
   div.content-resto img {
@@ -230,8 +220,9 @@
     background-color: transparent;
   }
 
-  footer {
+  div.footer-head {
     padding: 80px;
+    padding-top: 0px;
   }
 }
 
@@ -437,7 +428,7 @@ input {
 }
 
 .wrapper-fiture {
-  margin: 76px 20px;
+  padding: 76px 20px;
   margin-bottom: 0px;
   display: flex;
   align-items: center;
@@ -555,16 +546,17 @@ input {
 }
 
 .flex-menu {
-  margin-bottom: -28px;
   width: 100%;
+  height: 100vh;
 }
 
 .wrapper-menu {
   flex-flow: row nowrap;
   width: 100%;
-  margin: 0px auto;
+  height: 100vh;
+  margin: 0px;
   padding: 100px;
-  padding-bottom: 0px;
+  /* padding-bottom: 0px; */
   display: flex;
   align-items: stretch;
   justify-content: flex-start;
@@ -575,9 +567,9 @@ input {
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
-  margin-bottom: 96px;
+  /* margin-bottom: 96px; */
   margin: 0px;
-  padding-bottom: 100px;
+  padding-top: 100px;
 }
 
 .desc-menu {
@@ -619,21 +611,20 @@ input {
 
 .btn-app {
   position: relative;
-  width: 500px;
   margin: 0px;
   padding: 0px;
   display: inline-flex;
   border-radius: 1000px;
   min-height: 35px;
-  width: auto;
+  width: 150px;
   align-items: center;
   border: none;
-  cursor: pointer;
+
   background-color: rgb(217, 20, 0);
   text-align: center;
 }
 
-.btn-app div {
+.btn-app button {
   font-size: 17px;
   font-weight: 650;
   color: rgb(255, 255, 255);
@@ -645,11 +636,25 @@ input {
   flex-grow: 1;
   opacity: 1;
   padding: 12px 18px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-app:hover {
+  background-color: rgb(197, 20, 0);
 }
 
 .wrapper-img-menu {
   flex: 7 1 0%;
-  margin-left: 64px !important;
+  margin-left: 50px !important;
+  padding-bottom: 30px;
+}
+
+.wrapper-img-menu img {
+  width: 100%;
+  height: auto;
+  margin-left: 0px;
 }
 
 .wrapper-resto {
@@ -717,6 +722,7 @@ input {
 
 .wrapper-img-resto img {
   width: 100%;
+  height: auto;
 }
 
 .btn-resto {
@@ -735,7 +741,7 @@ input {
   text-align: center;
 }
 
-.btn-resto div {
+.btn-resto button {
   font-size: 17px;
   font-weight: 650;
   color: rgb(255, 255, 255);
@@ -747,6 +753,13 @@ input {
   flex-grow: 1;
   opacity: 1;
   padding: 12px 18px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-resto:hover {
+  background-color: rgb(197, 20, 0);
 }
 
 /* FOOTER */

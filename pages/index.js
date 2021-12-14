@@ -105,7 +105,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="flex-menu">
+      {/* <div className="flex-menu"> */}
         <div className="wrapper-menu">
           <div className="content-menu">
             <div className="desc-menu">
@@ -118,17 +118,16 @@ export default function Home() {
                 nearby grocery and convenience stores, and more.
               </span>
             </div>
-            <div>
-              <a className="btn-app">
-                <div>Get the app</div>
-              </a>
+            <div className="btn-app">
+              <button>Get the app</button>
             </div>
+
           </div>
           <div className="wrapper-img-menu">
             <img src="img-content1.jpg" />
           </div>
         </div>
-      </div>
+      {/* </div> */}
 
       <div className="wrapper-resto">
         <div className="content-resto">
@@ -146,10 +145,8 @@ export default function Home() {
                 across the U.S., Canada and Australia.
               </p>
             </div>
-            <div>
-              <a className="btn-resto">
-                <div>Find restaurants</div>
-              </a>
+            <div className="btn-resto">
+              <button>Find restaurants</button>
             </div>
           </div>
         </div>
