@@ -150,7 +150,7 @@
 
   div.wrapper-img-menu img {
     width: auto;
-    height: 79vh;
+    height: 76vh;
     margin-left: 0px;
   }
 
@@ -194,8 +194,8 @@
   }
 
   div.wrapper-img-resto img {
-    width: auto;
-    height: 100vh;
+    width: 100px;
+    height: auto;
   }
 
   div.content-resto img {
@@ -557,7 +557,7 @@ input {
 .wrapper-menu {
   flex-flow: row nowrap;
   width: 100%;
-  height: 100vh;
+  height: 86vh;
   margin: 0px;
   padding: 100px;
   /* padding-bottom: 0px; */

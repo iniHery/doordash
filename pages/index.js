@@ -88,7 +88,7 @@ export default function Home() {
               <div className="img-fiture">
                 <img src="/content3.svg" height="120" width="120" />
               </div>
-              <div className="desc-fiture" style={{marginRight: "0px"}}>
+              <div className="desc-fiture" style={{ marginRight: "0px" }}>
                 <div className="content-desc-fiture">
                   <h2>Try the App</h2>
                   <h3>
@@ -106,33 +106,32 @@ export default function Home() {
         </div>
       </div>
       {/* <div className="flex-menu"> */}
-        <div className="wrapper-menu">
-          <div className="content-menu">
-            <div className="desc-menu">
-              <span>Its all here.</span>
-              <span>All in one app.</span>
-            </div>
-            <div className="title-menu">
-              <span>
-                Discover local, on-demand delivery or Pickup from restaurants,
-                nearby grocery and convenience stores, and more.
-              </span>
-            </div>
-            <div className="btn-app">
-              <button>Get the app</button>
-            </div>
-
+      <div className="wrapper-menu">
+        <div className="content-menu">
+          <div className="desc-menu">
+            <span>Its all here.</span>
+            <span>All in one app.</span>
           </div>
-          <div className="wrapper-img-menu">
-            <img src="img-content1.jpg" />
+          <div className="title-menu">
+            <span>
+              Discover local, on-demand delivery or Pickup from restaurants,
+              nearby grocery and convenience stores, and more.
+            </span>
+          </div>
+          <div className="btn-app">
+            <button>Get the app</button>
           </div>
         </div>
+        <div className="wrapper-img-menu">
+          <img src="img-content1.jpg" />
+        </div>
+      </div>
       {/* </div> */}
 
       <div className="wrapper-resto">
         <div className="content-resto">
           <div className="wrapper-img-resto">
-            <img src="img-content2.jpg" />
+            <img src="img-content2.jpg" width="100%" height="70px" />
           </div>
           <div className="desc-resto">
             <div className="hero-resto">
