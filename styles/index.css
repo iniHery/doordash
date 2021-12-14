@@ -9,6 +9,7 @@
 
   .brand-company {
     height: 420px;
+    padding-bottom: auto;
   }
 
   .title-company {
@@ -149,7 +150,7 @@
     display: flex;
   }
 
-  .desc-menu span{
+  .desc-menu span {
     font-size: 30px;
   }
 }
