@@ -221,9 +221,11 @@
   }
 
   div.footer-head {
-    padding: 80px;
-    padding-top: 0px;
+    padding: 0px 90px;
+    
   }
+
+  
 }
 
 .header {
