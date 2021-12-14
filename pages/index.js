@@ -71,8 +71,7 @@ export default function Home() {
               <div className="desc-fiture">
                 <div className="content-desc-fiture">
                   <h2>
-                    Become a <span />
-                    Partner
+                    Become a <span>Partner</span>
                   </h2>
                   <h3>
                     Grow your business and reach new customers by partnering

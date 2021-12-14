@@ -272,6 +272,7 @@
   font-weight: 700;
   padding: 0 16px;
   color: rgb(255, 255, 255);
+  cursor: pointer;
 }
 
 .btn-up {
@@ -515,6 +516,12 @@ input {
   margin: 8px 0px 0px 0px;
   text-align: center;
   padding: 0px;
+}
+
+.content-desc-fiture h2 span {
+  display: flex;
+  justify-content: center;
+  line-height: 30px;
 }
 
 .btn-right {
@@ -824,6 +831,11 @@ input {
   display: block;
 }
 
+.list-topCities span:hover {
+  text-decoration: underline;
+  color: white;
+}
+
 .list-topCuines {
   padding-top: 32px;
   padding-bottom: 32px;
@@ -883,6 +895,11 @@ input {
   display: block;
 }
 
+.about-company span:hover {
+  text-decoration: underline;
+  color: white;
+}
+
 .desc-about h2 {
   margin-bottom: 8px;
   font-size: 16px;
@@ -910,6 +927,12 @@ input {
 
 .wrapper-app-store img {
   margin: 10px;
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.wrapper-app-store img:hover {
+  opacity: 1;
 }
 
 .footer-buttom {
