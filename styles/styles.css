@@ -39,12 +39,17 @@
   div.dispaly-fiture {
     display: flex;
     height: auto;
+    justify-content: space-between;
     align-items: center;
     text-align: center;
   }
 
   div.content-fiture {
-    flex-direction: column;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-template-columns: 300px 300px 300px;
   }
 
   div.flex-box-fiture {
@@ -133,7 +138,7 @@
   }
 
   div.hero-resto span {
-    font-size: 27px;
+    font-size: 26.5px;
     line-height: 32px;
   }
 
@@ -166,6 +171,38 @@
     margin: 100px 50px;
   }
 
+  div.description-resto p {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    width: 264px;
+    letter-spacing: 0ch;
+    text-transform: none;
+    color: rgb(25, 25, 25);
+    display: block;
+  }
+
+  /* div.btn-resto {
+    position: relative;
+    width: 500px;
+    margin: 0px;
+    padding: 0px;
+    display: inline-flex;
+    border-radius: 1000px;
+    min-height: 30px;
+    width: auto;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(217, 20, 0);
+    text-align: center;
+  } */
+
+  div.btn-resto div {
+    font-size: 14px;
+    padding: 12px 18px;
+  }
+
   div.wrapper-img-resto img {
     width: 100px;
     height: auto;
@@ -177,7 +214,9 @@
   }
 
   div.content-resto {
-    display: flex;
+    display: grid;
+    grid-template-columns: auto 264px;
+    margin: 80px;
   }
 
   div.wrapper-app-store {
@@ -404,14 +443,9 @@ input {
   flex-direction: row;
   justify-content: center;
   width: 100%;
-  /* padding: 12px; */
 }
 
 .content-fiture {
-  /* display: flex;
-  flex-direction: row;
-  justify-content: center;
-  height: 100%; */
   display: grid;
   justify-content: space-between;
   align-items: center;
