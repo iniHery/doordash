@@ -209,9 +209,12 @@
     margin: 80px;
   }
 
+  div.app-store {
+    max-width: 50%;
+  }
+
   div.wrapper-app-store {
     cursor: pointer;
-
     margin-top: 10px;
   }
 
@@ -222,10 +225,7 @@
 
   div.footer-head {
     padding: 0px 90px;
-    
   }
-
-  
 }
 
 .header {
@@ -870,12 +870,15 @@ input {
 }
 
 .list-about-company {
-  display: flex;
+  display: grid;
+  grid-template-columns: 600px auto;
+
+
 }
 
 .about-company {
-  flex: 1 1 0%;
-  display: flex;
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
   justify-content: space-between;
 }
 
@@ -928,10 +931,11 @@ input {
 }
 
 .app-store {
-  flex: 1 1 0%;
+  /* flex: 1px 1px 0px; */
   display: flex;
   justify-content: flex-end;
   overflow: hidden;
+  text-align: end;
 }
 
 .wrapper-app-store {
