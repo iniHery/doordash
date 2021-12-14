@@ -70,7 +70,10 @@ export default function Home() {
               </div>
               <div className="desc-fiture">
                 <div className="content-desc-fiture">
-                  <h2>Become a Partner</h2>
+                  <h2>
+                    Become a <span />
+                    Partner
+                  </h2>
                   <h3>
                     Grow your business and reach new customers by partnering
                     with us.
@@ -123,56 +126,26 @@ export default function Home() {
             </div>
           </div>
           <div className="wrapper-img-menu">
-            <img className="image-menu" src="img-content1.jpg" />
+            <img src="img-content1.jpg" />
           </div>
         </div>
       </div>
-      <div className="flex-resto">
-        <div className="wrapper-resto">
-          <div className="content-resto">
-            <div className="wrapper-img-resto">
-              <img className="image-resto" src="img-content2.jpg" />
-            </div>
-            <div className="desc-resto">
-              <div className="hero-resto">
-                <span>Every Flavor Welcome</span>
-              </div>
-              <div className="description-resto">
-                <p>
-                  From your neighborhood sushi spot to the burger and fries you
-                  crave, choose from over 300,000 local and national favorites
-                  across the U.S., Canada and Australia.
-                </p>
-              </div>
-              <div>
-                <a className="btn-app">
-                  <div>Find restaurants</div>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* <div className="flex-resto">
-        <div className="wrapper-resto">
-          <div className="content-resto">
-            <img
-              className="image-resto"
-              src="img-content2.jpg"
-              width="100%"
-              height="60vh"
-            />
+      {/* <div className="flex-resto"> */}
+      <div className="wrapper-resto">
+        <div className="content-resto">
+          <div className="wrapper-img-resto">
+            <img src="img-content2.jpg" />
           </div>
           <div className="desc-resto">
             <div className="hero-resto">
               <span>Every Flavor Welcome</span>
             </div>
             <div className="description-resto">
-              <span>
+              <p>
                 From your neighborhood sushi spot to the burger and fries you
                 crave, choose from over 300,000 local and national favorites
                 across the U.S., Canada and Australia.
-              </span>
+              </p>
             </div>
             <div>
               <a className="btn-app">
@@ -181,7 +154,9 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
+      {/* </div> */}
+
       <div className="footer-head">
         <div className="wrapper-footer">
           <footer>
