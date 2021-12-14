@@ -148,7 +148,7 @@ export default function Home() {
               </p>
             </div>
             <div>
-              <a className="btn-app">
+              <a className="btn-resto">
                 <div>Find restaurants</div>
               </a>
             </div>
