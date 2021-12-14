@@ -88,7 +88,7 @@ export default function Home() {
               <div className="img-fiture">
                 <img src="/content3.svg" height="120" width="120" />
               </div>
-              <div className="desc-fiture">
+              <div className="desc-fiture" style={{marginRight: "0px"}}>
                 <div className="content-desc-fiture">
                   <h2>Try the App</h2>
                   <h3>

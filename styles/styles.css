@@ -429,6 +429,7 @@ input {
 
 .wrapper-fiture {
   padding: 76px 20px;
+  padding-bottom: 0px;
   margin-bottom: 0px;
   display: flex;
   align-items: center;
@@ -442,6 +443,7 @@ input {
   justify-content: space-between;
   align-items: center;
   grid-template-columns: 450px 450px 450px;
+  text-align: center;
 }
 
 .dispaly-fiture {
@@ -450,9 +452,9 @@ input {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  min-width: 90%;
   height: auto;
-  min-width: 300px;
+  width: 300px;
   padding: 16px;
 }
 
